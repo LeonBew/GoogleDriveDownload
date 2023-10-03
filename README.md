@@ -1,8 +1,12 @@
 ## Download files from Google Drive with the free [Google Cloud Console](https://cloud.google.com/)
 
-Use this script to efficiently download from your own Google Drive or shared folders. It uses the Google Cloud Console, for which no trial or additional account is needed. 
+Use this script to efficiently download from your own Google Drive or shared folders. It uses the Google Cloud Console, for which no trial or additional account is needed. Key additions:
 
--  (!!) Error Recovery! The script can recover from errors — either on your end or Google's. The script saves its progress into chunks and retries every 5s indefinitely. This is key for large downloads which would be otherwise interrupted. Just leave it running overnight.
+1. Download error recovery! The script can recover from errors — either on your end or Google's. The script saves its progress into chunks and retries every 5s indefinitely. This is key for large downloads which would otherwise be interrupted. Just leave it running overnight.
+2. No file size limits! (that I've found)
+
+--- 
+
 - Download chunk size can be modified to account for many small files vs. few/one large file(s).
 - Folders are supported and are downloaded recursively.
 - Google Apps files (Google docs/sheets/slides) are supported and will be saved as `.pdf`.
