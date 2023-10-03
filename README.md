@@ -11,7 +11,7 @@ Use this script to efficiently download from your own Google Drive or shared fol
 - Folders are supported and are downloaded recursively.
 - Google Apps files (Google docs/sheets/slides) are supported and will be saved as `.pdf`.
 - Download speeds through the API are faster than through a browser.
-- The API has a 1TB download limit / month.
+- The free version of the Google Cloud API has a 1TB download limit / month.
 - Progress % and estimated download time included.
 
 # 1: Set Up a Google Cloud Console Project
